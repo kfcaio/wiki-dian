@@ -1,0 +1,19 @@
+site_name: DIAN
+theme:
+  custom_dir: overrides
+  favicon: images/favicon.png
+  logo: assets/logo.png
+  name: material
+  language: pt
+  palette:
+    primary: green
+
+extra:
+  social:
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/projetodian
+    - icon: fontawesome/brands/facebook
+      link: https://web.facebook.com/projetodian/
+
+markdown_extensions:
+  - attr_list
