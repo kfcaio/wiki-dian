@@ -1,4 +1,7 @@
 site_name: DIAN
+
+site_url: https://kfcaio.github.io/wiki-dian
+
 theme:
   custom_dir: overrides
   favicon: images/favicon.png
@@ -17,3 +20,14 @@ extra:
 
 markdown_extensions:
   - attr_list
+
+strict: true
+
+nav:
+ - Home: 'index.md'
+ - Sobre: 'sobre.md'
+ - Membros: 'membros.md'
+ - Participe: 'participe.md'
+ - Encontros: 'encontros.md'
+ - Artigos:
+    - D.I.A.N., projeto sobre direitos animais e sustentabilidade, e as repercussões em seus integrantes: 'artigos/artigo_0.md'
